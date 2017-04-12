@@ -1,4 +1,4 @@
-# Revision history for haskell-dummy-package1
+# Revision history for haskell-dummy-package2
 
 ## 0.1.0.0  -- YYYY-mm-dd
 

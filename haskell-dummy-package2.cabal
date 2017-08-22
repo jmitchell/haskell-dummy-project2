@@ -4,9 +4,13 @@ license:             BSD3
 license-file:        LICENSE
 author:              Jacob Mitchell
 maintainer:          jacob.mitchell@iohk.io
-build-type:          Simple
+build-type:          Custom
 extra-source-files:  ChangeLog.md
 cabal-version:       >=1.10
+
+custom-setup
+  setup-depends: base
+               , Cabal >= 2.0 && < 2.1
 
 source-repository head
   type:                git
